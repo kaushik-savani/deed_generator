@@ -55,7 +55,7 @@ class _FormScreenPageState extends State<FormScreenPage> {
                     child: TextFormField(
                       controller: entry.value,
                       decoration: InputDecoration(
-                        labelText: 'Input ${entry.key + 1}',
+                        labelText: 'Enter Input ${entry.key + 1}',
                         border: const OutlineInputBorder(),
                       ),
                       validator: (value) {
